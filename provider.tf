@@ -10,7 +10,7 @@ terraform {
     bucket = "81s-remote-state-dev-ram"
     key    = "roboshop-manual"
     region = "us-east-1"
-    dynamodb_table = "81s-locking-dev-ram"
+    dynamodb_table = "81s-locking"
   }
 }
 
